@@ -1,0 +1,43 @@
+﻿  AudioEngine.cpp
+  Camera2D.cpp
+  DebugRenderer.cpp
+  IMainGame.cpp
+  ParticleBatch2D.cpp
+  ParticleEngine2D.cpp
+  ScreenList.cpp
+  TaengineErrors.cpp
+  GLSLProgram.cpp
+  ImageLoader.cpp
+  InputManager.cpp
+  IOManager.cpp
+  picoPNG.cpp
+d:\documents\muhan\taengine\taengine\iomanager.cpp(19): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+d:\documents\muhan\taengine\taengine\iomanager.cpp(25): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+d:\documents\muhan\taengine\taengine\iomanager.cpp(49): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+d:\documents\muhan\taengine\taengine\iomanager.cpp(55): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+  ResourceManager.cpp
+  Sprite.cpp
+  SpriteBatch.cpp
+  SpriteFont.cpp
+  taengine.cpp
+  TextureCache.cpp
+  Timing.cpp
+d:\documents\muhan\taengine\taengine\timing.cpp(25): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+d:\documents\muhan\taengine\taengine\timing.cpp(28): warning C4244: 'argument' : conversion from 'float' to 'Uint32', possible loss of data
+d:\documents\muhan\taengine\taengine\timing.cpp(40): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+d:\documents\muhan\taengine\taengine\timing.cpp(42): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+  Window.cpp
+d:\documents\muhan\taengine\taengine\spritebatch.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+d:\documents\muhan\taengine\taengine\spritebatch.cpp(113): warning C4018: '<' : signed/unsigned mismatch
+d:\documents\muhan\taengine\taengine\spritebatch.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+d:\documents\muhan\taengine\taengine\spritefont.cpp(38): warning C4316: 'glm::tvec4<int,0>' : object allocated on the heap may not be aligned 16
+d:\documents\muhan\taengine\taengine\spritefont.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+d:\documents\muhan\taengine\taengine\spritefont.cpp(108): warning C4244: '*=' : conversion from 'float' to 'unsigned char', possible loss of data
+d:\documents\muhan\taengine\taengine\spritefont.cpp(143): warning C4316: 'taengine::CharGlyph' : object allocated on the heap may not be aligned 16
+SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  taengine.vcxproj -> D:\Documents\Muhan\taengine\Debug\taengine\taengine.lib

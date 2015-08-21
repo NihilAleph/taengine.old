@@ -1,0 +1,41 @@
+﻿  AudioEngine.cpp
+  Camera2D.cpp
+  DebugRenderer.cpp
+  IMainGame.cpp
+  ParticleBatch2D.cpp
+  ParticleEngine2D.cpp
+  ScreenList.cpp
+  TaengineErrors.cpp
+  GLSLProgram.cpp
+  ImageLoader.cpp
+  InputManager.cpp
+  IOManager.cpp
+  picoPNG.cpp
+IOManager.cpp(19): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+IOManager.cpp(25): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+IOManager.cpp(49): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+IOManager.cpp(55): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+  ResourceManager.cpp
+  Sprite.cpp
+  SpriteBatch.cpp
+  SpriteFont.cpp
+  taengine.cpp
+  TextureCache.cpp
+  Timing.cpp
+Timing.cpp(25): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+Timing.cpp(28): warning C4244: 'argument' : conversion from 'float' to 'Uint32', possible loss of data
+Timing.cpp(40): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+Timing.cpp(42): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+  Window.cpp
+SpriteBatch.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+SpriteBatch.cpp(113): warning C4018: '<' : signed/unsigned mismatch
+SpriteBatch.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+SpriteFont.cpp(38): warning C4316: 'glm::tvec4<int,0>' : object allocated on the heap may not be aligned 16
+SpriteFont.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+SpriteFont.cpp(108): warning C4244: '*=' : conversion from 'float' to 'unsigned char', possible loss of data
+SpriteFont.cpp(143): warning C4316: 'taengine::CharGlyph' : object allocated on the heap may not be aligned 16
+SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+  taengine.vcxproj -> D:\Documents\Muhan\taengine\Release\taengine\taengine.lib
